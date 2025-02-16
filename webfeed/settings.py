@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'webfeedDB',
         'USER': 'rootuser',
-        'PASSWORD': 'Ujjwal@2003',
+        'PASSWORD': 'Pass.2029',
         'HOST': 'localhost',
         'PORT': '3306',
     }
@@ -128,3 +128,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_REDIRECT_URL = 'webfeed'  # Redirect to the webfeed page after login
+
+import pymysql
+pymysql.install_as_MySQLdb()
